@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.qypt.backstage.entity.peadmin.PeAdmin">
+	
+	<select id="getUser" resultType="user">
+			SELECT NAME adminName,pass adminPass
+			 FROM sys_user  WHERE NAME='aaa' AND pass='123'
+	</select>
+
+</mapper>
